@@ -5,7 +5,7 @@ Note: Some of the latest smartphones such as Xiaomi Mi11, Huawei Mate40, HONOR 5
 
 The original version of the program came from Gao Yang's group at the University of Calgary. Thank them for their hard work and sharing: https://github.com/FarzanehZangeneh/csv2rinex. On the basis of their work, this program modifies some parameter errors and adds batch processing, Beidou /QZSS dual frequency and other functions.
 
-Note that this program is different from the RINEX 3.04 file output from Google gnsslogger 3.0.5.6. GNSSLOG2RINEX aligns the time scale at all sampling times, which means that the sampling interval is equal 1s, rather than 0.999 s or 1.001 s. This avoids the inconsistency between the time difference of pseudorange/carrier phase and Doppler velocity measurement.
+Note that this program is different from the RINEX 3.04 file output from Google gnsslogger 3.0.5.6. GNSSLOG2RINEX aligns the time scale at all sampling times, which means that the sampling interval is equal 1s, rather than 0.999 s or 1.001 s. This avoids the inconsistency between the time difference of pseudorange/carrier phase and Doppler velocity measurement (this problem mainly exists in Huawei and Honor phones, which use two local clocks for the pseudorange and carrier phase instead of the usual one clock control).
 
 
 The current version does not add many data validation rules, which means that most observations can be effectively converted. If you want to add more stringent data filtering criteria, refer to the comments on lines 644-652 of the main function. If necessary, I can complete this part of the function.
