@@ -676,8 +676,7 @@ int main(int argc, char* argv[])
 
 			if (!available) continue; /* Reject bad observations with invalid state */
 
-			if (obs->pseudorange_rate_uncertainty_meter_per_second > MAXPRRUNCMPS || obs->received_sv_time_uncertainty_nano > MAXTOWUNCNS
-				|| obs->accumulated_delta_range_uncertainty_meter > MAXADRUNCNS) // Carrier phase outliers(ADR uncertainty) need to be filtered to improve data quality
+			if (obs->pseudorange_rate_uncertainty_meter_per_second > MAXPRRUNCMPS || obs->received_sv_time_uncertainty_nano > MAXTOWUNCNS)
 			{
 				continue; /* Reject bad observations */
 			}
@@ -776,7 +775,7 @@ int main(int argc, char* argv[])
 			sat->l[frq] = (obs->accumulated_delta_range_meter * wavl_inv);    // Doppler measurement
 			sat->s[frq] = obs->cn0_dbhz;                                      // C/N0 measurement
 
-			if (obs->accumulated_delta_range_state & GPS_ADR_STATE_UNKNOWN)   // getAccumulatedDeltaRangeMeters() status is invalid or unknown
+			if (obs->accumulated_delta_range_state & GPS_ADR_STATE_UNKNOWN || obs->accumulated_delta_range_uncertainty_meter > MAXADRUNCNS)   //  ADR is unknown or invalid
 			{
 				sat->l[frq] = 0;
 			}
