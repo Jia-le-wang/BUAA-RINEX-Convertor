@@ -43,6 +43,7 @@ using namespace std;
 
 #define MAXPRRUNCMPS  10               /* Maximum pseudorange rate (Doppler) uncertainty */
 #define MAXTOWUNCNS   500              /* Maximum Tow uncertainty, 500 ns, for example */
+#define MAXADRUNCNS   0.2              /* Maximum ADR uncertainty, 0.2 m, for example */
 
 #define MAX_LINE 1024
 
@@ -675,7 +676,9 @@ int main(int argc, char* argv[])
 
 			if (!available) continue; /* Reject bad observations with invalid state */
 
-			if (obs->pseudorange_rate_uncertainty_meter_per_second > MAXPRRUNCMPS || obs->received_sv_time_uncertainty_nano > MAXTOWUNCNS) {
+			if (obs->pseudorange_rate_uncertainty_meter_per_second > MAXPRRUNCMPS || obs->received_sv_time_uncertainty_nano > MAXTOWUNCNS
+				|| obs->accumulated_delta_range_uncertainty_meter > MAXADRUNCNS) // Carrier phase outliers(ADR uncertainty) need to be filtered to improve data quality
+			{
 				continue; /* Reject bad observations */
 			}
 
