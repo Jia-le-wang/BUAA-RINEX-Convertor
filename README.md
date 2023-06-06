@@ -1,8 +1,17 @@
-The main function of this program is to convert dual-frequency and multi-constellation GNSS raw data collected by your own Android smartphones (such as Xiaomi Mi8, Huawei P40/Mate40, Samsung S20U, Google Pix6/Pix5a, OnePlus, Honor, etc.) into standard RINEX files.
+The main function of this program is to convert dual-frequency and multi-constellation GNSS raw data collected by your own Android smartphones (such as Xiaomi Mi8, Huawei P40/Mate40, Samsung S20U, Google Pix6/Pix5a, OnePlus, Honor, etc.) into standard RINEX files.Note: Some of the latest smartphones such as Xiaomi Mi11, Huawei Mate40, HONOR 50, etc., support the Beidou triple frequency data (B1I+B1C+B2a). If you need, please share the data with me to increase the three-frequency data conversion function.
 
 We evaluated the GNSS observations quality of different brands of smartphones in detail, and realized instantaneous sub-meter positioning based on dual-frequency smartphone PPP. For details, please refer to: https://doi.org/10.33012/navi.597 (Instantaneous Sub-meter Level Precise Point Positioning of Low-Cost Smartphones)
 
-Note: Some of the latest smartphones such as Xiaomi Mi11, Huawei Mate40, HONOR 50, etc., support the Beidou triple frequency data (B1I+B1C+B2a). If you need, please share the data with me to increase the three-frequency data conversion function.
+-------------------------------------------------------------------------------------------------------------
+If you don't want to compile code, two quick ways to start are as follows:
+
+1. Put all gnsslog.txt files in a folder with Gnsslogger2RINEX.exe, then double-click Gnsslogger2RINEX.exe to achieve batch conversion (please note: no Spaces in the path)
+
+2. Alternatively, put all gnsslog.txt files in the same folder (such as TXTfiles) and use cmd or powershell to execute the following command:
+
+Gnsslogger2RINEX.exe  C:\Users\Administrator\TXTfiles
+
+-------------------------------------------------------------------------------------------------------------
 
 The original version of the program came from Gao Yang's group at the University of Calgary. Thank them for their hard work and sharing: https://github.com/FarzanehZangeneh/csv2rinex. On the basis of their work, this program modifies some parameter errors and adds batch processing, Beidou /QZSS dual frequency and other functions.
 
