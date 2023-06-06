@@ -1,4 +1,6 @@
-The main function of this program is to convert dual-frequency and multi-constellation GNSS raw data collected by your own Android smartphones (such as Xiaomi Mi8, Huawei P40/Mate40, Samsung S20U, Google Pix6/Pix5a, OnePlus, Honor, etc.) into standard RINEX files.Note: Some of the latest smartphones such as Xiaomi Mi11, Huawei Mate40, HONOR 50, etc., support the Beidou triple frequency data (B1I+B1C+B2a). If you need, please share the data with me to increase the three-frequency data conversion function.
+The main function of this program is to convert dual-frequency and multi-constellation GNSS raw data collected by your own Android smartphones (such as Xiaomi Mi8, Huawei P40/Mate40, Samsung S20U, Google Pix6/Pix5a, OnePlus, Honor, etc.) into standard RINEX files.
+
+Note: Some of the latest smartphones such as Xiaomi Mi11, Huawei Mate40, HONOR 50, etc., support the Beidou triple frequency data (B1I+B1C+B2a). If you need, please share the data with me to increase the three-frequency data conversion function.
 
 We evaluated the GNSS observations quality of different brands of smartphones in detail, and realized instantaneous sub-meter positioning based on dual-frequency smartphone PPP. For details, please refer to: https://doi.org/10.33012/navi.597 (Instantaneous Sub-meter Level Precise Point Positioning of Low-Cost Smartphones)
 
