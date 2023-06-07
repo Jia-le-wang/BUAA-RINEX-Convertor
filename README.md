@@ -6,9 +6,8 @@ We evaluated the GNSS observations quality of different brands of smartphones in
 
 ![FIGURE 13](https://github.com/Jia-le-wang/Gnsslogger2RINEX/assets/49149409/7991001b-59a4-48df-becd-b92103bade3e)
 
-![FIGURE 14](https://github.com/Jia-le-wang/Gnsslogger2RINEX/assets/49149409/5c76cc28-2687-4bc7-8c66-1c0073cac247)
 
-------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
 If you don't want to compile code, two quick ways to start are as follows:
 
 1. Put all gnsslog.txt files in a folder with Gnsslogger2RINEX.exe, then double-click Gnsslogger2RINEX.exe to achieve batch conversion (please note: no Spaces in the path)
@@ -17,7 +16,7 @@ If you don't want to compile code, two quick ways to start are as follows:
 
 Gnsslogger2RINEX.exe  C:\Users\Administrator\TXTfiles
 
--------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 
 The original version of the program came from Gao Yang's group at the University of Calgary. Thank them for their hard work and sharing: https://github.com/FarzanehZangeneh/csv2rinex. On the basis of their work, this program modifies some parameter errors and adds batch processing, Beidou /QZSS dual frequency and other functions.
 
