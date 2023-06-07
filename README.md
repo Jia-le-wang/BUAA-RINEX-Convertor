@@ -4,6 +4,8 @@ Note: Some of the latest smartphones such as Xiaomi Mi11, Huawei Mate40, HONOR 5
 
 We evaluated the GNSS observations quality of different brands of smartphones in detail, and realized instantaneous sub-meter positioning based on dual-frequency smartphone PPP. For details, please refer to: https://doi.org/10.33012/navi.597 (Instantaneous Sub-meter Level Precise Point Positioning of Low-Cost Smartphones)
 
+![FIGURE 13](https://github.com/Jia-le-wang/Gnsslogger2RINEX/assets/49149409/7991001b-59a4-48df-becd-b92103bade3e)
+
 -------------------------------------------------------------------------------------------------------------
 If you don't want to compile code, two quick ways to start are as follows:
 
