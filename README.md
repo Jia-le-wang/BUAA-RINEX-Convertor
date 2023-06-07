@@ -6,7 +6,8 @@ We evaluated the GNSS observations quality of different brands of smartphones in
 
 ![FIGURE 13](https://github.com/Jia-le-wang/Gnsslogger2RINEX/assets/49149409/7991001b-59a4-48df-becd-b92103bade3e)
 
--------------------------------------------------------------------------------------------------------------
+-------![Uploading FIGURE 14.png…]()
+------------------------------------------------------------------------------------------------------
 If you don't want to compile code, two quick ways to start are as follows:
 
 1. Put all gnsslog.txt files in a folder with Gnsslogger2RINEX.exe, then double-click Gnsslogger2RINEX.exe to achieve batch conversion (please note: no Spaces in the path)
