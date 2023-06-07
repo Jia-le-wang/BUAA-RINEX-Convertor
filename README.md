@@ -6,7 +6,8 @@ We evaluated the GNSS observations quality of different brands of smartphones in
 
 ![FIGURE 13](https://github.com/Jia-le-wang/Gnsslogger2RINEX/assets/49149409/7991001b-59a4-48df-becd-b92103bade3e)
 
--------![Uploading FIGURE 14.png…]()
+![FIGURE 14](https://github.com/Jia-le-wang/Gnsslogger2RINEX/assets/49149409/5c76cc28-2687-4bc7-8c66-1c0073cac247)
+
 ------------------------------------------------------------------------------------------------------
 If you don't want to compile code, two quick ways to start are as follows:
 
