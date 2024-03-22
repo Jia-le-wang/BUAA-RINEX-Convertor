@@ -1,4 +1,4 @@
-The main function of this program is to convert dual-frequency and multi-constellation GNSS raw data collected by your own Android smartphones (such as Xiaomi Mi8, Huawei P40/Mate40, Samsung S20U, Google Pix6/Pix5a, OnePlus, Honor, etc.) into standard RINEX files.
+The main function of this program is to convert multi-frequency and multi-constellation GNSS raw data collected by your own Android smartphones (such as Xiaomi Mi8, Huawei P40/Mate40, Samsung S20U, Google Pix6/Pix5a, OnePlus, Honor, etc.) into standard RINEX files. The program supports conversion of three - and four-frequency GNSS raw measurements to RINEX 3.05 observations.
 
 -----------------------------------------------------------------------------------------------------
 If you don't want to compile code, two quick ways to start are as follows:
