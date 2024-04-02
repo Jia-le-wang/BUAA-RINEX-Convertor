@@ -31,8 +31,8 @@ using namespace std;
 #define CLIGHT      299792458.0         /* Speed of light (m/s) */
 #define LeapSecond      18              /* Leap seccond for 2021 */
 
-#define MAXPRRUNCMPS  10               /* Maximum pseudorange rate (Doppler) uncertainty */
-#define MAXTOWUNCNS   500              /* Maximum Tow uncertainty, 500 ns, for example */
+#define MAXPRRUNCMPS  5               /* Maximum pseudorange rate (Doppler) uncertainty */
+#define MAXTOWUNCNS   300              /* Maximum Tow uncertainty, 500 ns, for example */
 #define MAXADRUNCNS   0.2              /* Maximum ADR uncertainty, 0.2 m, for example */
 
 #define MAX_LINE 1024
