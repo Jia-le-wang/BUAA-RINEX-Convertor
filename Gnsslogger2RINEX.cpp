@@ -1,20 +1,10 @@
-/*
-// This code is used to convert the GNSS logger output csv file (.txt)
-// format to RINEX format (*.?o)
-*          Copyright (C), All rights reserved to
-*          Dr. Yang Gao's group.
-// Authors:   Farzaneh Zangenehnejad and Yang Jiang from Dr. Yang Gao's group,
-//            University of Calgary, Calgary, Canada
-// Contact Email: farzaneh.zangenehnej@ucalgary.ca and yang.jiang1@ucalgary.ca
-// Version : 1  (Dec 2022)
-*/
 
 /*  Added features: Support batch processing, QZSS and Beidou dual-frequency signal output,
 	correct some parameter errors, rinex file header added smartphone models to distinguish...
 */
 //  Authors: Dr. Jiale Wang from Pro. Chuang Shi's group, Beihang University, Beijing, China
 //  Email: wangjialea@gmail.com
-//  Date: Apri 7, 2023
+//  Date: Feb 7, 2024
 
 #include <vector>
 #include <stdio.h>
@@ -56,7 +46,7 @@ using namespace std;
 #define SYS_BDS 5
 #define SYS_QZS 4    // added by jiale wang
 
-#define RNX_VER "     3.04           OBSERVATION DATA    M: Mixed            RINEX VERSION / TYPE"
+#define RNX_VER "     3.05           OBSERVATION DATA    M: Mixed            RINEX VERSION / TYPE"
 #define RNX_PGM "UofC CSV2RINEX convertor                                    PGM / RUN BY / DATE "
 #define RNX_APP "        0.0000        0.0000        0.0000                  APPROX POSITION XYZ "
 #define RNX_ANT "        0.0000        0.0000        0.0000                  ANTENNA: DELTA H/E/N"
