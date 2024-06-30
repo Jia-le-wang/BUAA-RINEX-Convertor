@@ -17,7 +17,9 @@ Note that this program is different from the RINEX 3.04 file output from Google 
 This program can batch process GNSS logs from Google gnsslogger (https://play.google.com/store/apps/details?id=com.google.android.apps.location.gps.gnsslogger&hl=en&gl=US) and GPSTEST (https://play.google.com/store/apps/details?id=com.android.gpstest&hl=en&gl=US). For information on whether the smartphone you are using supports GNSS raw measurements (pseudorange, carrier, Doppler, single/dual frequency, etc.) please refer to: https://docs.google.com/spreadsheets/d/1jXtRCoEnnFNWj6_oFlVWflsf-b0jkfZpyhN-BXsv7uo/edit#gid=0. The original version of the program came from Gao Yang's group at the University of Calgary, Thank them for their hard work and sharing. On the basis of their work. This program modifies some parameter errors and adds batch processing, Beidou/QZSS dual/multi frequency and other functions.
 
 ------------------------------------------------------------------------------------------------------
+![-cropped-ezgif com-optimize (1)](https://github.com/Jia-le-wang/BUAA-RINEX-Convertor/assets/49149409/5dcc11a4-6d18-48bf-9ee6-2b1d8c64be0d)
 
+------------------------------------------------------------------------------------------------------
 Finally, IMU data processing (noise reduction, interpolation, time synchronization) is also very important if you want to further study the GNSS/SINS integrated navigation algorithm. We have completed this work and will upload the corresponding program later.
 
 If you have any questions, please do not hesitate to contact me at: wangjialea@gmail.com
